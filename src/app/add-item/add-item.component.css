@@ -1,0 +1,11 @@
+input{
+    margin-right: 5px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor:pointer;
+}

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'prova2';
-}
+  shoppingList: string[] = [];
+
+  onItemAdded(item: string){
+    this.shoppingList.push(item)
+  }
+  }
